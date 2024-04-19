@@ -54,7 +54,7 @@ foreach($nilaiSiswa as $nilai){
     }
     echo "Nilai: $nilai (lulus) <br>";
 }
-echo "<br>";
+// echo "<br>";
 echo "Pertanyaan 1 <br>";
 echo "Ada seorang guru ingin menghitung total nilai dari 10 siswa dalam ujian matematika. Guru ini ingin mengabaikan dua nilai tertinggi dan dua nilai terendah. Bantu guru ini menghitung total nilai yang akan digunakan untuk menentukan nilai rata-rata setelah mengabaikan nilai tertinggi dan terendah. Berikut daftar nilai dari 10 siswa (85, 92, 78, 64, 90, 75, 88, 79, 70, 96) <br>";
 $nilai10Siswa = [85, 92, 78, 64, 90, 75, 88, 79, 70, 96];
