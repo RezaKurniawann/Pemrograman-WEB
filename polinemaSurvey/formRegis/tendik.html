@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran Tendik</title>
+    <link rel="stylesheet" href="../style/styleLoginRegis.css">
+</head>
+<body>
+    <form action="../process/registerProcess.php" method="post">
+        <div class="container-register">
+            <header>Akun Login</header>
+            <div class="box-register">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Masukkan Username">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password">
+            </div>
+        </div>
+        <div class="container-register">
+            <header>Informasi Tendik</header>
+            <div class="box-register">
+                <label for="nopeg">NOPEG</label>
+                <input type="text" id="nopeg" name="nopeg" placeholder="Masukkan NOPEG Anda">
+                
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap Anda">
+                
+                <label for="unit">Unit</label>
+                <input type="text" id="unit" name="unit" placeholder="Masukkan Unit Anda">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Register">
+            </div>
+            <div class="switch">
+                <p>Sudah punya akun?
+                    <a href="../login.php">Login</a>
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Periksa apakah ada satu baris yang sesuai dengan kombinasi username dan password
         if ($cek == 1) {
             //set session
-            $_SESSION["nama"] = $username; // Selalu set sesi, terlepas dari centang 'Remember Me'
+            $_SESSION["nama"] = $username;
             header("location:../index.php");
             exit;
         } else {

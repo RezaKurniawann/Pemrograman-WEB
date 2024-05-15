@@ -6,6 +6,7 @@ body {
 .input-login, .input-register {
   width: 300px;
   margin: 0 auto;
+  margin-top : 50px;
   padding: 20px;
   background-color: #fff;
   border: 1px solid #ddd;
@@ -20,14 +21,16 @@ h1 {
 
 .box-login, .box-register {
   margin-bottom: 20px;
+  
 }
 
-input[type="text"], input[type="password"], input[type="email"] {
+input[type="text"], input[type="password"], input[type="email"]{
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 input[type="submit"] {
@@ -37,6 +40,7 @@ input[type="submit"] {
   background-color: #4CAF50;
   color: #fff;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 input[type="submit"]:hover {
